@@ -6,8 +6,8 @@ if type == "triangle":
   p = float((a + b + c) / 2)
   print((p * (p - a) * (p - b) * (p - c)) ** 0.5)
 elif type == "rectangle":
-  a = int(input())
-  b = int(input())
+  a = float(input())
+  b = float(input())
   print(a * b)
 elif type == "circle":
   r = float(input())
